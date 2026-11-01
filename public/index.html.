@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЧЁРТ AI</title>
+  <style>
+    body {
+      margin: 0;
+      background: #101014;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .panel {
+      max-width: 420px;
+      margin: 70px auto;
+      padding: 25px;
+      background: #202027;
+      border-radius: 16px;
+    }
+    h1 { color: #ff4545; }
+    p { color: #ccc; }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>ЧЁРТ AI</h1>
+    <p>Панель управления</p>
+    <p>Система готовится к запуску</p>
+  </div>
+</body>
+</html>
