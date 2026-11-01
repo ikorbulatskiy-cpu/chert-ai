@@ -1,1 +1,95 @@
 # chert-ai
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ЧЁРТ AI</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #101014;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+main {
+  max-width: 460px;
+  margin: 30px auto;
+}
+header {
+  text-align: center;
+  padding: 25px;
+  background: #1c1c24;
+  border: 1px solid #38313b;
+  border-radius: 18px;
+}
+h1 { color: #ff4545; margin: 0 0 8px; }
+.subtitle { color: #aaa; font-size: 13px; }
+section {
+  background: #1c1c24;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 16px;
+  border: 1px solid #38313b;
+}
+h2 { font-size: 17px; margin-top: 0; }
+label { display: block; color: #bbb; margin: 12px 0 7px; }
+input, select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background: #111116;
+  color: white;
+  font-size: 15px;
+}
+button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #d83232;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.status { color: #ffbf55; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>ЧЁРТ AI</h1>
+<div class="subtitle">Помощник Galaxy of Dating</div>
+</header>
+
+<section>
+<h2>Подключение персонажа</h2>
+<label>Код восстановления</label>
+<input type="password" placeholder="Ввод кода">
+<button onclick="alert('Авторизация пока не подключена')">
+Войти на сервер
+</button>
+<p class="status" id="status">● Ожидание подключения</p>
+</section>
+
+<section>
+<h2>Персонаж</h2>
+<p>Имя: <span id="character">Не авторизован</span></p>
+<h2>Планета</h2>
+<select id="planet">
+<option value="">Сначала подключите персонажа</option>
+</select>
+</section>
+
+<section>
+<h2>Управление ботом</h2>
+<p>Сообщения: ожидают подключения</p>
+<p>Автоответы: выключены</p>
+</section>
+</main>
+</body>
+</html>
